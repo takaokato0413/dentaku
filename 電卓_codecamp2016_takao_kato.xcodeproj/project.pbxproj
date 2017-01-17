@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185A6C391E2E65600046CEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A6C381E2E65600046CEDE /* AppDelegate.swift */; };
+		185A6C3B1E2E65600046CEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A6C3A1E2E65600046CEDE /* ViewController.swift */; };
+		185A6C3E1E2E65600046CEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185A6C3C1E2E65600046CEDE /* Main.storyboard */; };
+		185A6C401E2E65600046CEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A6C3F1E2E65600046CEDE /* Assets.xcassets */; };
+		185A6C431E2E65600046CEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185A6C411E2E65600046CEDE /* LaunchScreen.storyboard */; };
+		185A6C4E1E2E65600046CEDE /* ___codecamp2016_takao_katoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A6C4D1E2E65600046CEDE /* ___codecamp2016_takao_katoTests.swift */; };
+		185A6C591E2E65600046CEDE /* ___codecamp2016_takao_katoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A6C581E2E65600046CEDE /* ___codecamp2016_takao_katoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185A6C4A1E2E65600046CEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185A6C2D1E2E655F0046CEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185A6C341E2E65600046CEDE;
+			remoteInfo = "電卓_codecamp2016_takao_kato";
+		};
+		185A6C551E2E65600046CEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185A6C2D1E2E655F0046CEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185A6C341E2E65600046CEDE;
+			remoteInfo = "電卓_codecamp2016_takao_kato";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185A6C351E2E65600046CEDE /* 電卓_codecamp2016_takao_kato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "電卓_codecamp2016_takao_kato.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185A6C381E2E65600046CEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		185A6C3A1E2E65600046CEDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		185A6C3D1E2E65600046CEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185A6C3F1E2E65600046CEDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185A6C421E2E65600046CEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185A6C441E2E65600046CEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185A6C491E2E65600046CEDE /* 電卓_codecamp2016_takao_katoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "電卓_codecamp2016_takao_katoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185A6C4D1E2E65600046CEDE /* ___codecamp2016_takao_katoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___codecamp2016_takao_katoTests.swift"; sourceTree = "<group>"; };
+		185A6C4F1E2E65600046CEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185A6C541E2E65600046CEDE /* 電卓_codecamp2016_takao_katoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "電卓_codecamp2016_takao_katoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185A6C581E2E65600046CEDE /* ___codecamp2016_takao_katoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___codecamp2016_takao_katoUITests.swift"; sourceTree = "<group>"; };
+		185A6C5A1E2E65600046CEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185A6C321E2E65600046CEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185A6C461E2E65600046CEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185A6C511E2E65600046CEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185A6C2C1E2E655F0046CEDE = {
+			isa = PBXGroup;
+			children = (
+				185A6C371E2E65600046CEDE /* 電卓_codecamp2016_takao_kato */,
+				185A6C4C1E2E65600046CEDE /* 電卓_codecamp2016_takao_katoTests */,
+				185A6C571E2E65600046CEDE /* 電卓_codecamp2016_takao_katoUITests */,
+				185A6C361E2E65600046CEDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185A6C361E2E65600046CEDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185A6C351E2E65600046CEDE /* 電卓_codecamp2016_takao_kato.app */,
+				185A6C491E2E65600046CEDE /* 電卓_codecamp2016_takao_katoTests.xctest */,
+				185A6C541E2E65600046CEDE /* 電卓_codecamp2016_takao_katoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185A6C371E2E65600046CEDE /* 電卓_codecamp2016_takao_kato */ = {
+			isa = PBXGroup;
+			children = (
+				185A6C381E2E65600046CEDE /* AppDelegate.swift */,
+				185A6C3A1E2E65600046CEDE /* ViewController.swift */,
+				185A6C3C1E2E65600046CEDE /* Main.storyboard */,
+				185A6C3F1E2E65600046CEDE /* Assets.xcassets */,
+				185A6C411E2E65600046CEDE /* LaunchScreen.storyboard */,
+				185A6C441E2E65600046CEDE /* Info.plist */,
+			);
+			path = "電卓_codecamp2016_takao_kato";
+			sourceTree = "<group>";
+		};
+		185A6C4C1E2E65600046CEDE /* 電卓_codecamp2016_takao_katoTests */ = {
+			isa = PBXGroup;
+			children = (
+				185A6C4D1E2E65600046CEDE /* ___codecamp2016_takao_katoTests.swift */,
+				185A6C4F1E2E65600046CEDE /* Info.plist */,
+			);
+			path = "電卓_codecamp2016_takao_katoTests";
+			sourceTree = "<group>";
+		};
+		185A6C571E2E65600046CEDE /* 電卓_codecamp2016_takao_katoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				185A6C581E2E65600046CEDE /* ___codecamp2016_takao_katoUITests.swift */,
+				185A6C5A1E2E65600046CEDE /* Info.plist */,
+			);
+			path = "電卓_codecamp2016_takao_katoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185A6C341E2E65600046CEDE /* 電卓_codecamp2016_takao_kato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185A6C5D1E2E65600046CEDE /* Build configuration list for PBXNativeTarget "電卓_codecamp2016_takao_kato" */;
+			buildPhases = (
+				185A6C311E2E65600046CEDE /* Sources */,
+				185A6C321E2E65600046CEDE /* Frameworks */,
+				185A6C331E2E65600046CEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "電卓_codecamp2016_takao_kato";
+			productName = "電卓_codecamp2016_takao_kato";
+			productReference = 185A6C351E2E65600046CEDE /* 電卓_codecamp2016_takao_kato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185A6C481E2E65600046CEDE /* 電卓_codecamp2016_takao_katoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185A6C601E2E65600046CEDE /* Build configuration list for PBXNativeTarget "電卓_codecamp2016_takao_katoTests" */;
+			buildPhases = (
+				185A6C451E2E65600046CEDE /* Sources */,
+				185A6C461E2E65600046CEDE /* Frameworks */,
+				185A6C471E2E65600046CEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185A6C4B1E2E65600046CEDE /* PBXTargetDependency */,
+			);
+			name = "電卓_codecamp2016_takao_katoTests";
+			productName = "電卓_codecamp2016_takao_katoTests";
+			productReference = 185A6C491E2E65600046CEDE /* 電卓_codecamp2016_takao_katoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185A6C531E2E65600046CEDE /* 電卓_codecamp2016_takao_katoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185A6C631E2E65600046CEDE /* Build configuration list for PBXNativeTarget "電卓_codecamp2016_takao_katoUITests" */;
+			buildPhases = (
+				185A6C501E2E65600046CEDE /* Sources */,
+				185A6C511E2E65600046CEDE /* Frameworks */,
+				185A6C521E2E65600046CEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185A6C561E2E65600046CEDE /* PBXTargetDependency */,
+			);
+			name = "電卓_codecamp2016_takao_katoUITests";
+			productName = "電卓_codecamp2016_takao_katoUITests";
+			productReference = 185A6C541E2E65600046CEDE /* 電卓_codecamp2016_takao_katoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185A6C2D1E2E655F0046CEDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "takao kato";
+				TargetAttributes = {
+					185A6C341E2E65600046CEDE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					185A6C481E2E65600046CEDE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185A6C341E2E65600046CEDE;
+					};
+					185A6C531E2E65600046CEDE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185A6C341E2E65600046CEDE;
+					};
+				};
+			};
+			buildConfigurationList = 185A6C301E2E655F0046CEDE /* Build configuration list for PBXProject "電卓_codecamp2016_takao_kato" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185A6C2C1E2E655F0046CEDE;
+			productRefGroup = 185A6C361E2E65600046CEDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185A6C341E2E65600046CEDE /* 電卓_codecamp2016_takao_kato */,
+				185A6C481E2E65600046CEDE /* 電卓_codecamp2016_takao_katoTests */,
+				185A6C531E2E65600046CEDE /* 電卓_codecamp2016_takao_katoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185A6C331E2E65600046CEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185A6C431E2E65600046CEDE /* LaunchScreen.storyboard in Resources */,
+				185A6C401E2E65600046CEDE /* Assets.xcassets in Resources */,
+				185A6C3E1E2E65600046CEDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185A6C471E2E65600046CEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185A6C521E2E65600046CEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185A6C311E2E65600046CEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185A6C3B1E2E65600046CEDE /* ViewController.swift in Sources */,
+				185A6C391E2E65600046CEDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185A6C451E2E65600046CEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185A6C4E1E2E65600046CEDE /* ___codecamp2016_takao_katoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185A6C501E2E65600046CEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185A6C591E2E65600046CEDE /* ___codecamp2016_takao_katoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185A6C4B1E2E65600046CEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185A6C341E2E65600046CEDE /* 電卓_codecamp2016_takao_kato */;
+			targetProxy = 185A6C4A1E2E65600046CEDE /* PBXContainerItemProxy */;
+		};
+		185A6C561E2E65600046CEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185A6C341E2E65600046CEDE /* 電卓_codecamp2016_takao_kato */;
+			targetProxy = 185A6C551E2E65600046CEDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185A6C3C1E2E65600046CEDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185A6C3D1E2E65600046CEDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185A6C411E2E65600046CEDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185A6C421E2E65600046CEDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185A6C5B1E2E65600046CEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		185A6C5C1E2E65600046CEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185A6C5E1E2E65600046CEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "電卓_codecamp2016_takao_kato/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.com.---codecamp2016-takao-kato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		185A6C5F1E2E65600046CEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "電卓_codecamp2016_takao_kato/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.com.---codecamp2016-takao-kato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		185A6C611E2E65600046CEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "電卓_codecamp2016_takao_katoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.com.---codecamp2016-takao-katoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/電卓_codecamp2016_takao_kato.app/電卓_codecamp2016_takao_kato";
+			};
+			name = Debug;
+		};
+		185A6C621E2E65600046CEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "電卓_codecamp2016_takao_katoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.com.---codecamp2016-takao-katoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/電卓_codecamp2016_takao_kato.app/電卓_codecamp2016_takao_kato";
+			};
+			name = Release;
+		};
+		185A6C641E2E65600046CEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "電卓_codecamp2016_takao_katoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.com.---codecamp2016-takao-katoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "電卓_codecamp2016_takao_kato";
+			};
+			name = Debug;
+		};
+		185A6C651E2E65600046CEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "電卓_codecamp2016_takao_katoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.com.---codecamp2016-takao-katoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "電卓_codecamp2016_takao_kato";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185A6C301E2E655F0046CEDE /* Build configuration list for PBXProject "電卓_codecamp2016_takao_kato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185A6C5B1E2E65600046CEDE /* Debug */,
+				185A6C5C1E2E65600046CEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185A6C5D1E2E65600046CEDE /* Build configuration list for PBXNativeTarget "電卓_codecamp2016_takao_kato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185A6C5E1E2E65600046CEDE /* Debug */,
+				185A6C5F1E2E65600046CEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185A6C601E2E65600046CEDE /* Build configuration list for PBXNativeTarget "電卓_codecamp2016_takao_katoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185A6C611E2E65600046CEDE /* Debug */,
+				185A6C621E2E65600046CEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185A6C631E2E65600046CEDE /* Build configuration list for PBXNativeTarget "電卓_codecamp2016_takao_katoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185A6C641E2E65600046CEDE /* Debug */,
+				185A6C651E2E65600046CEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185A6C2D1E2E655F0046CEDE /* Project object */;
+}
